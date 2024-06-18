@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bfcffa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.translator-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textareas {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.textareas textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bfcffa;
+    border-radius: 5px;
+    resize: none;
+}
+
+.translate-button {
+    background-color: #31a4da;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.translate-button:hover {
+    background-color: #31a5dae0;
+}
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px;
+}
+.icon-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.translator-container-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.controls div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.controls select {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls i{
+    cursor: pointer;
+}
+.controls button img {
+    width: 20px;
+    height: 20px;
+}
+.swap-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 5px;
+    padding: 10px;
+    }
+    .swap-button:hover {
+        background-color: #bfcffa;
+        border-radius: 5px;
+}

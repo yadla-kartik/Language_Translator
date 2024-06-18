@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="translator-container">
+        <div class="textareas">
+            <div>
+                <textarea class="translate-from" placeholder="Enter text here..."></textarea>
+            </div>
+            <div>
+                <textarea class="translate-to" placeholder="Translation will appear here..."></textarea>
+            </div>
+        </div>
+        <div class="translator-container-2">
+            <div class="controls">
+                <div>
+                    <i id="from"  class="fa-solid fa-volume-high fa-lg" style="color: #000000;"></i>
+                    <i id="from"  class="fa-regular fa-copy fa-lg" style="color: #000000;"></i>
+                    <select>
+                    </select>
+                </div>
+                <button class="swap-button"><img src="swap-icon.png" alt="Swap"></button>
+                <div>
+                    <select>
+                    </select>
+                    <i id="to" class="fa-solid fa-volume-high fa-lg" style="color: #000000;"></i>
+                    <i id="to"  class="fa-regular fa-copy fa-lg" style="color: #000000;"></i>
+                </div>
+            </div>
+        </div>  
+        <button class="translate-button">Translate Text</button>
+    </div>
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
